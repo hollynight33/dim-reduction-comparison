@@ -18,8 +18,7 @@ PCA、t-SNE、UMAPを用いた次元削減手法の比較と、BERTopicを使用
 ### 1. リポジトリのクローン
 
 ```bash
-git clone <your-repository-url>
-cd 次元削減
+git clone git@github.com:hollynight33/dim-reduction-comparison.git
 ```
 
 ### 2. 依存パッケージのインストール
@@ -33,8 +32,6 @@ pip install -r requirements.txt
 ⚠️ **通常は不要です。**
 
 本リポジトリには、すでに生成済みの埋め込みベクトル  `data/embeddings_cache.npy` が含まれているため、  **APIキーを設定しなくてもそのまま実行できます。**
-
----
 
 #### 以下の場合のみ設定してください
 - 埋め込みベクトルを再生成したい場合
